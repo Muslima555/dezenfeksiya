@@ -172,7 +172,8 @@ width: 285px;
         width: 220px;
     }
     .section4__link {
-        width: 300px;
+        max-width: 300px;
+        width: 100%;
         padding: 12px 0;
     }
     .section4__left{
