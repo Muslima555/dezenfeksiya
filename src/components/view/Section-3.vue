@@ -76,6 +76,18 @@ div.ant-collapse-content-box{
   .logo-faq{
     text-align: center;
   }
+  div.ant-collapse-content-box{
+  max-width: 1000px;
+  width: 100%;
+  font-size: 16px;
+ }
+ span.ant-collapse-header-text{
+  font-size: 22px;
+}
+ .logo-faq{
+  font-size: 32px;
+  font-weight: 700;
+}
 
 }
 svg{
