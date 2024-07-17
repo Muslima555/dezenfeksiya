@@ -27,21 +27,21 @@ function submit () {
 
 <template>
 <div class="container">
-<div class="section4__content">
+<div class="section4__content" id="contact">
 <div class="section4__left">
-    <h1 class="section4__title">Malumotingizni qoldiring</h1>
+    <h1 class="section4__title">{{ $t('Malumotingizni qoldiring') }}</h1>
     <form action="" @submit.prevent="submit" >
-    <input required type="text" v-model="text" placeholder="Ism" class="section4__input">
+    <input required type="text" v-model="text" :placeholder="$t('Ism')" class="section4__input">
     <input required type="number" v-model="number" placeholder="+998 |" class="section4__input">
     <div class="section4__checkbox-main">
     <input v-model="chek" type="checkbox" class="section4__checkbox">
-    <label class="section4__subtitle">Maxfiylik siyosati</label>
+    <label class="section4__subtitle">{{$t('Maxfiylik siyosati')}}</label>
    </div>
-    <button type="submit"   class="section4__link">Yozilish</button>
+    <button type="submit"   class="section4__link">{{$t('Yozilish')}}</button>
 </form>
 </div>
 <div class="section4__right">
-    <h4 class="section4__right-title">Bizga ko'p yillardan beri  kompaniyamizga ishonch bildirganlar talaygina</h4>
+    <h4 class="section4__right-title">{{$t("Ko'p yillar davomida kompaniyamizga ishongan bizlargina")}}</h4>
     <img src="@/assets/img/person.png" alt="" class="section4__img">
 </div>
 </div>

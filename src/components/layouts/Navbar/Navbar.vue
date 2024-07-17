@@ -30,16 +30,16 @@ watch( lenginput,()=>{
 
 <ul class="nav__list">
     <li class="nav__link"><a  class="nav-link-list" href="">{{$t('Asosiy')}}</a></li>
-    <li class="nav__link"><a  class="nav-link-list" href="">{{$t('Biz haqimizda')}}</a></li>
-    <li class="nav__link"><a  class="nav-link-list" href="">{{ $t('Xizmatlar') }}</a></li>
-    <li class="nav__link"><a  class="nav-link-list" href="">{{$t('Faq')}}</a></li>
+    <li class="nav__link"><a  class="nav-link-list" href="#about">{{$t('Biz haqimizda')}}</a></li>
+    <li class="nav__link"><a  class="nav-link-list" href="#uslug">{{ $t('Xizmatlar') }}</a></li>
+    <li class="nav__link"><a  class="nav-link-list" href="#faq">{{$t('Faq')}}</a></li>
 </ul>
 <select  @input="lenginputed($event.target.value)">
   <option value="uz">O'zbekcha</option>
-  <option value="ru">Russcha</option>
+  <option value="ru">Ruscha</option>
 </select>
 
-<a href="" class="nav__main-link">{{$t('Kirish')}}</a>
+<a href="#contact" class="nav__main-link">{{$t('Kirish')}}</a>
 </div>
 </div>
   </nav>

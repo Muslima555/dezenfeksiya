@@ -21,7 +21,7 @@
       <div class="footer__content-right">
          <div class="footer__content-right-box">
          <img src="@/assets/img/loc.png" alt="" class="footer__content-right-img">
-         <p class="footer__content-right-text">Toshkent shahri  Yashnabod tumani  Mo’ljal Sergeli-4 bekat</p>
+         <p class="footer__content-right-text">{{$t('Toshkent shahri Yashnabod tumani Mo’ljal Sergeli-4 bekat')}}</p>
          <img src="@/assets/img/Vector 68.png" alt="" class="footer__content-right-arrow">
          
       </div>
