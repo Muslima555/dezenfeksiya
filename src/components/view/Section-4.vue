@@ -34,8 +34,8 @@ function submit () {
     <input required type="text" v-model="text" :placeholder="$t('Ism')" class="section4__input">
     <input required type="number" v-model="number" placeholder="+998 |" class="section4__input">
     <div class="section4__checkbox-main">
-    <input v-model="chek" type="checkbox" class="section4__checkbox">
-    <label class="section4__subtitle">{{$t('Maxfiylik siyosati')}}</label>
+    <!-- <input v-model="chek" type="checkbox" class="section4__checkbox"> -->
+    <!-- <label class="section4__subtitle">{{$t('Maxfiylik siyosati')}}</label> -->
    </div>
     <button type="submit"   class="section4__link">{{$t('Yozilish')}}</button>
 </form>

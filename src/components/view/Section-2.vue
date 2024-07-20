@@ -10,7 +10,7 @@
 
 <div class="section2__content" id="uslug">
     <h1 class="section2__content-title" >{{$t('Xizmatlar')}}</h1>
-    <p class="section2__content-text">{{ $t('Bu darsliklari sizning yuqori daraja olishingizga yordam beradi') }}</p>
+    <p class="section2__content-text">{{ $t("Biz sizga samarali va kafolatli xizmat taklif etamiz.") }}</p>
 </div>
 
 <div class="section2__cards">
@@ -18,9 +18,9 @@
 <div class="section2__card">
 
     <div class="section2__card-box">
-    <h1 class="section2__card-title">{{$t('Boshlang’ich tushunchalar')}}</h1>
-    <h5 class="section2__card-subtitle">{{$t("Nazariy Bilimlar")}}</h5>
-    <p class="section2__card-text">{{$t('16 dars')}}</p>
+    <h1 class="section2__card-title">{{$t("Dezinfeksiya - zararli mikro organizmlarni yo'q qilish")}}</h1>
+    <h5 class="section2__card-subtitle">{{$t("")}}</h5>
+    <p class="section2__card-text">{{$t('')}}</p>
 </div>
 
 <img class="section2__card-img2" src="@/assets/img/Group (5).png" alt="">
@@ -29,9 +29,9 @@
 <div class="section2__card">
 
     <div class="section2__card-box">
-    <h1 class="section2__card-title">{{$t('O’rta')}}</h1>
-    <h5 class="section2__card-subtitle">{{ $t('Nazariy va Amaliy bilimlar') }}</h5>
-    <p class="section2__card-text">{{ $t('23 dars') }}</p>
+    <h1 class="section2__card-title">{{$t("Dezinseksiya - hashorotlarni yo'q qilish")}}</h1>
+    <h5 class="section2__card-subtitle">{{ $t('') }}</h5>
+    <p class="section2__card-text">{{ $t('') }}</p>
 </div>
 
 <img class="section2__card-img2" src="@/assets/img/Group (4).png" alt="">
@@ -40,9 +40,9 @@
 <div class="section2__card">
 
     <div class="section2__card-box">
-    <h1 class="section2__card-title">{{$t('Yuqori')}}</h1>
-    <h5 class="section2__card-subtitle">{{ $t('Amaliy bilimlar') }}</h5>
-    <p class="section2__card-text">{{ $t('16 dars') }}</p>
+    <h1 class="section2__card-title">{{$t("Deratizatsiya - kemiruvchilarni yo'q qilish")}}</h1>
+    <h5 class="section2__card-subtitle">{{ $t('') }}</h5>
+    <p class="section2__card-text">{{ $t('') }}</p>
 </div>
 
 <img class="section2__card-img2" src="@/assets/img/Group (3).png" alt="">

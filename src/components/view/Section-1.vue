@@ -1,5 +1,5 @@
 <script setup>
-
+//  AOS.init(); 
 </script>
 
 
